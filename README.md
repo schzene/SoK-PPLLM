@@ -11,6 +11,10 @@
 
 ## Introduction
 
+This work goes beyond a simple summary of existing studies. It provides a systematic and in-depth analysis of prior approaches, identifies their limitations and gaps, and offers new insights. As summarized in [Table 1](imgs/table_1.svg), we examine existing surveys on privacy-preserving inference. However, rather than merely cataloging prior work, we emphasize systematic comparison and analysis to uncover the intrinsic differences and limitations.
+
+![table_1](imgs/table_1.svg)
+
 ## MPC-based PPLLM
 
 * [NDSS 2026] [Cryptpeft: Efficient and private neural network inference via parameter efficient fine-tuning](https://arxiv.org/pdf/2508.12264) ([code available](https://github.com/Saisai-Xia/CryptPEFT))
