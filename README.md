@@ -81,6 +81,10 @@ This work goes beyond a simple summary of existing studies. It provides a system
 
 * [NDSS 2025] [SHAFT: Secure, Handy, Accurate, and Fast Transformer Inference](https://www.ndss-symposium.org/wp-content/uploads/2025-2287-paper.pdf) ([code available](https://github.com/andeskyl/SHAFT))
 
+* [arXiv 2025] [ENSI: Efficient Non-Interactive Secure Inference for Large Language Models](https://arxiv.org/pdf/2509.09424) ([code available](https://github.com/sugarhh/ENSI))
+
+* [arXiv 2025] [Encryption-Friendly LLM Architecture](https://arxiv.org/pdf/2410.02486) ([code available](https://github.com/Donghwan-Rho/Encryption-friendly_LLM_Architecture))
+
 * [ICML 2024] [Converting Transformers to Polynomial Form for Secure Inference Over Homomorphic Encryption](https://openreview.net/pdf?id=9HPoJ6ulgV) ([code available](https://github.com/IBM/PolyTransformer))
 
 * [IWSPA 2024] [Transformer-based language models and homomorphic encryption: An intersection with bert-tiny](https://dl.acm.org/doi/pdf/10.1145/3643651.3659893) ([code available](https://github.com/lorenzorovida/FHE-BERT-Tiny))
@@ -134,6 +138,8 @@ This work goes beyond a simple summary of existing studies. It provides a system
 * [CSCWD 2024] [CipherFormer: Efficient Transformer Private Inference with Low Round Complexity](https://arxiv.org/pdf/2403.16860)
 
 * [DAC 2024] [FastQuery: Communication-efficient Embedding Table Query for Private LLMs inference](https://dl.acm.org/doi/pdf/10.1145/3649329.3657374)
+
+* [arXiv 2024] [MPC-Minimized Secure LLM Inference](https://arxiv.org/pdf/2408.03561)
 
 * [ICLR 2023] [MPCFormer: fast, performant and private Transformer inference with MPC](https://arxiv.org/pdf/2211.01452) ([code available](https://github.com/MccRee177/MPCFormer))
 
