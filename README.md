@@ -7,7 +7,7 @@
 - [Hybrid Encryption PPLLM](#hybrid-encryption-ppllm)
 - [Quantization Optimization PPLLM](#quantization-optimization-ppllm)
 - [Comiler Optimization PPLLM](#comiler-optimization-ppllm)
-- [Citation and Feedback](#citation-and-feedback)
+- [Commonly Used Cryptographic Backbones For private Transforme-based Model Inference](#commonly-used-cryptographic-backbones-for-private-transforme-based-model-inference)
 
 ## Introduction
 
@@ -147,4 +147,28 @@ This work goes beyond a simple summary of existing studies. It provides a system
 
 * [arXiv 2025] [Network and Compiler Optimizations for Efficient Linear Algebra Kernels in Private Transformer Inference](https://arxiv.org/pdf/2512.11135)
 
-## Citation and Feedback
+
+## Commonly Used Cryptographic Backbones For private Transforme-based Model Inference
+
+| **Library**          | **Year** | **Support**                | **Language**   | **w. GPU** | **Repository Link**                        |
+|-----------------------|----------|----------------------------|----------------|------------|--------------------------------------------|
+| HElib                 | 2020     | BGV, CKKS                  | C++            | ✅         | [https://github.com/homenc/HElib](https://github.com/homenc/HElib) |
+| Pyfhel               | 2021     | BGV, BFV, CKKS             | Python & C++   | ❌         | [https://github.com/ibarrond/Pyfhel](https://github.com/ibarrond/Pyfhel) |
+| SEAL                  | 2018     | BGV, BFV, CKKS             | C++            | ✅*        | [https://github.com/microsoft/SEAL](https://github.com/microsoft/SEAL) |
+| OpenFHE               | 2022     | BGV, BFV, CKKS             | C++, Python    | ❌         | [https://github.com/openfheorg/openfhe-development](https://github.com/openfheorg) |
+| TFHE-rs               | 2022     | TFHE                       | C, Rust        | ❌         | [https://github.com/zama-ai/tfhe-rs](https://github.com/zama-ai/tfhe-rs) |
+| Lattigo               | 2024     | BGV, BFV, CKKS             | Go             | ❌         | [https://github.com/tuneinsight/lattigo](https://github.com/tuneinsight/lattigo) |
+| HeOnGPU               | 2024     | BGV, BFV, CKKS, TFHE       | C++            | ✅         | [https://github.com/Alisah-Ozcan/HEonGPU](https://github.com/Alisah-Ozcan/HEonGPU) |
+| ABY               | 2015     | MPC                        | C++            | ❌         | [https://github.com/encryptogroup/ABY](https://github.com/encryptogroup/ABY) |
+| EMP-toolkit           | 2016     | MPC                        | C++            | ❌         | [https://github.com/emp-toolkit](https://github.com/emp-toolkit) |
+| ABY $^3$               | 2018     | MPC                        | C++            | ❌         | [https://github.com/ladnir/aby3](https://github.com/ladnir/aby3) |
+| CrypTen               | 2019     | MPC                        | Python         | ✅         | [https://github.com/facebookresearch/CrypTen](https://github.com/facebookresearch/CrypTen) |
+| MP-SPDZ               | 2016     | MPC, HE                    | Python & C++   | ❌         | [https://github.com/data61/MP-SPDZ](https://github.com/data61/MP-SPDZ) |
+| EzPC                  | 2019     | MPC, HE                    | C++            | ✅         | [https://github.com/mpc-msri/EzPC](https://github.com/mpc-msri/EzPC) |
+| Secretflow            | 2023     | MPC, HE                    | Python & C++   | ✅*        | [https://github.com/secretflow/secretflow](https://github.com/secretflow/secretflow) |
+
+---
+
+**Note:**  
+- '**w. GPU**' indicates whether a library supports GPU acceleration: '**✅**' supported, '**❌**' indicates no GPU support.  
+- A '**✅***' indicates that open-source GPU support exists, but is not natively supported by the library.
