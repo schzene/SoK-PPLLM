@@ -11,9 +11,24 @@
 
 ## Introduction
 
-This work goes beyond a simple summary of existing studies. It provides a systematic and in-depth analysis of prior approaches, identifies their limitations and gaps, and offers new insights. As summarized in [Table 1](imgs/table_1.svg), we examine existing surveys on privacy-preserving inference. However, rather than merely cataloging prior work, we emphasize systematic comparison and analysis to uncover the intrinsic differences and limitations.
+This work goes beyond a simple summary of existing studies. It provides a systematic and in-depth analysis of prior approaches for private transformer-based model inference (such as BERT-Base, see [Figure 1](imgs/bertarch.svg)), identifies their limitations and gaps, and offers new insights. As summarized in [Table 1](imgs/table_1.svg), we examine existing surveys on privacy-preserving inference. However, rather than merely cataloging prior work, we emphasize systematic comparison and analysis to uncover the intrinsic differences and limitations.
 
-![table_1](imgs/table_1.svg)
+
+
+<div align="center">
+  <img src="imgs/bertarch.svg" alt="Figure 1" width="60%">
+  <p><strong>Figure 1:</strong> BERT-Base Model.</p>
+</div>
+
+
+
+<div align="center">
+  <img src="imgs/table_1.svg" alt="Table 1" width="95%">
+  <p><strong>Table 1:</strong> BERT-Base Model.</p>
+</div>
+
+
+<!-- ![table_2](imgs/table_1.svg) -->
 
 ## MPC-based PPLLM
 
@@ -172,3 +187,8 @@ This work goes beyond a simple summary of existing studies. It provides a system
 **Note:**  
 - '**w. GPU**' indicates whether a library supports GPU acceleration: '**✅**' supported, '**❌**' indicates no GPU support.  
 - A '**✅***' indicates that open-source GPU support exists, but is not natively supported by the library.
+
+
+
+<!-- ## Compiler Optimization PPLLM -->
+
