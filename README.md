@@ -23,12 +23,12 @@ This work goes beyond a simple summary of existing studies. It provides a system
 
 
 
-This SoK follows a 'top-to-bottom' paradigm, covering model structures, threat models, cryptographic techniques, optimization methods, and experimental analysis. Rather than serving as a purely literature-driven survey, we emphasize analysis from a low-level implementation perspective. As shown in [Figure 2](imgs/Sok2.svg), we use a 'heatmap' to visualize research focus and identify gaps: red regions indicate areas that have attracted greater research attention, while blue regions point to aspects that warrant further exploration. The figure further distinguishes solution-oriented summaries (upper left) from analysis-oriented studies (lower right). Overall, this SoK aims to provide new insights through systematic analysis rather than mere summarization.
+This SoK follows a 'top-to-bottom' paradigm, covering model structures, threat models, cryptographic techniques, optimization methods, and experimental analysis. Rather than serving as a purely literature-driven survey, we emphasize analysis from a low-level implementation perspective. As shown in [Figure 2](imgs/SoK2.svg), we use a 'heatmap' to visualize research focus and identify gaps: red regions indicate areas that have attracted greater research attention, while blue regions point to aspects that warrant further exploration. The figure further distinguishes solution-oriented summaries (upper left) from analysis-oriented studies (lower right). Overall, this SoK aims to provide new insights through systematic analysis rather than mere summarization.
 
 
 
 <div align="center">
-  <img src="imgs/Sok2.svg" alt="Figure 2" width="80%">
+  <img src="imgs/SoK2.svg" alt="Figure 2" width="80%">
   <p><strong>Figure 2:</strong> BERT-Base Model.</p>
 </div>
 
