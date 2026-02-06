@@ -28,16 +28,16 @@ This SoK follows a 'top-to-bottom' paradigm, covering model structures, threat m
 
 
 <div align="center">
-  <img src="imgs/Sok2.svg" alt="Figure 1" width="80%">
-  <p><strong>Figure 1:</strong> BERT-Base Model.</p>
+  <img src="imgs/Sok2.svg" alt="Figure 2" width="80%">
+  <p><strong>Figure 2:</strong> BERT-Base Model.</p>
 </div>
 
 
 As summarized in [Table 1](imgs/table_1.svg), we examine existing surveys on privacy-preserving inference. However, rather than merely cataloging prior work, we emphasize systematic comparison and analysis to uncover the intrinsic differences and limitations.
 
 <div align="center">
-  <img src="imgs/table_1.svg" alt="Table 1" width="95%">
   <p><strong>Table 1:</strong> BERT-Base Model.</p>
+  <img src="imgs/table_1.svg" alt="Table 1" width="95%">
 </div>
 
 
