@@ -11,16 +11,29 @@
 
 ## Introduction
 
-This work goes beyond a simple summary of existing studies. It provides a systematic and in-depth analysis of prior approaches for private transformer-based model inference (such as BERT-Base, see [Figure 1](imgs/bertarch.svg)), identifies their limitations and gaps, and offers new insights. As summarized in [Table 1](imgs/table_1.svg), we examine existing surveys on privacy-preserving inference. However, rather than merely cataloging prior work, we emphasize systematic comparison and analysis to uncover the intrinsic differences and limitations.
+This work goes beyond a simple summary of existing studies. It provides a systematic and in-depth analysis of prior approaches for private transformer-based model inference (such as BERT-Base, see [Figure 1](imgs/bertarch.svg)), identifies their limitations and gaps, and offers new insights. 
 
 
 
 <div align="center">
-  <img src="imgs/bertarch.svg" alt="Figure 1" width="60%">
+  <img src="imgs/bertarch.svg" alt="Figure 1" width="50%">
   <p><strong>Figure 1:</strong> BERT-Base Model.</p>
 </div>
 
 
+
+
+This SoK follows a 'top-to-bottom' paradigm, covering model structures, threat models, cryptographic techniques, optimization methods, and experimental analysis. Rather than serving as a purely literature-driven survey, we emphasize analysis from a low-level implementation perspective. As shown in [Figure 2](imgs/Sok2.svg), we use a 'heatmap' to visualize research focus and identify gaps: red regions indicate areas that have attracted greater research attention, while blue regions point to aspects that warrant further exploration. The figure further distinguishes solution-oriented summaries (upper left) from analysis-oriented studies (lower right). Overall, this SoK aims to provide new insights through systematic analysis rather than mere summarization.
+
+
+
+<div align="center">
+  <img src="imgs/Sok2.svg" alt="Figure 1" width="80%">
+  <p><strong>Figure 1:</strong> BERT-Base Model.</p>
+</div>
+
+
+As summarized in [Table 1](imgs/table_1.svg), we examine existing surveys on privacy-preserving inference. However, rather than merely cataloging prior work, we emphasize systematic comparison and analysis to uncover the intrinsic differences and limitations.
 
 <div align="center">
   <img src="imgs/table_1.svg" alt="Table 1" width="95%">
