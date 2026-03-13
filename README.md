@@ -8,6 +8,7 @@
 - [Quantization Optimization PPLLM](#quantization-optimization-ppllm)
 - [Comiler Optimization PPLLM](#comiler-optimization-ppllm)
 - [Commonly Used Cryptographic Backbones For private Transforme-based Model Inference](#commonly-used-cryptographic-backbones-for-private-transforme-based-model-inference)
+- [Citation](#citation)
 
 ## Introduction
 
@@ -205,3 +206,16 @@ As summarized in [Table 1](imgs/table_1.svg), we examine existing surveys on pri
 
 <!-- ## Compiler Optimization PPLLM -->
 
+## Citation
+
+Papers are available [here](https://eprint.iacr.org/2026/491). For citation in academic work, use the following BibTeX entries.
+
+```
+@misc{cryptoeprint:2026/491,
+      author = {Yuntian Chen and Tianpei Lu and Zhanyong Tang and Bingsheng Zhang and Zhiying Shi and Yuxiang Luan and Zhuzhu Wang},
+      title = {{SoK}: Private Transformer-Based Model Inference},
+      howpublished = {Cryptology {ePrint} Archive, Paper 2026/491},
+      year = {2026},
+      url = {https://eprint.iacr.org/2026/491}
+}
+```
